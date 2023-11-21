@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-image: url('https://www.djkn.kemenkeu.go.id/files/images/2022/11/Untitled.png');
+    background-size: cover;
+}
+
+div {
+    margin-top: -15px;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 0 14px;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    width: 100%;
+    background-color: royalblue;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: #f3f3f3;
+    padding: 50px 30px; /* Adjusted padding */
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.content span {
+    color: red;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    padding: 10px 0;
+}
+
+.form-row {
+    margin-bottom: 20px; /* Adjusted margin */
+}
+
+.full-input {
+    width: calc(100% - 36px); /* Adjusted width */
+    margin: 0 18px;
+    padding: 12px;
+}
+
+input[type=radio] {
+    margin-left: 18px;
+    margin-right: 8px;
+    margin-bottom: 14px;
+}
+
+.italic {
+    margin-left: 18px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}
+
+.short-input {
+    width: 100px;
+    margin: 0 18px 0 0;
+    padding: 12px;
+}
+
+
+.form-button {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    margin-top: -50px; /* Adjusted margin */
+    gap: 5px;
+}
+
+.form-button button {
+    padding: 14px 38px;
+    background-color: #00b221;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 7px;
+}
+
+.form-button button:hover {
+    background-color: #008272;
+}
+
+
+@media(max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
